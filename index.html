@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>각당 신관 월정기주차 안내</title>
+    <meta name="description" content="각당 신관(서울특별시 종로구 경희궁1길 33) 월정기주차 이용 안내 및 이용약관">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-title" content="각당신관 주차">
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            DEFAULT: '#000000',
+                            light: '#535353',
+                            bg: '#F4F7F5'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Pretendard', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; background-color: #f4f7f5; word-break: keep-all; overflow-wrap: break-word; -webkit-text-size-adjust: 100%; }
+        .section-icon { color: #000000; width: 24px; text-align: center; margin-right: 8px; }
+        details > summary { list-style: none; cursor: pointer; }
+        details > summary::-webkit-details-marker { display: none; }
+        details[open] .chevron { transform: rotate(180deg); }
+        .terms h4 { font-weight: 700; color: #111827; margin-top: 1.25rem; margin-bottom: 0.375rem; }
+        .terms p, .terms li { font-size: 0.875rem; line-height: 1.7; color: #4b5563; }
+        .terms ol.sub { margin-left: 1rem; }
+        .terms mark { background: #fef3c7; color: #92400e; padding: 0 2px; border-radius: 2px; }
+
+        /* 인쇄용 스타일 최적화 */
+        @media print {
+            body { background-color: #ffffff; padding: 0 !important; }
+            .print-container { box-shadow: none !important; margin: 0; max-width: 100%; border: none !important; }
+            .no-print { display: none !important; }
+            .page-break { page-break-inside: avoid; margin-bottom: 20px; }
+            .page-break-before { page-break-before: always; }
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased p-3 md:p-8">
+
+    <!-- 컨트롤 버튼 (인쇄하기) -->
+    <div class="hidden md:flex max-w-4xl mx-auto mb-4 justify-end no-print">
+        <button onclick="window.print()" class="bg-brand hover:bg-brand-light text-white px-4 py-2 rounded-lg shadow transition-colors flex items-center gap-2 text-sm font-medium">
+            <i class="fa-solid fa-print"></i> 안내문 인쇄하기 / PDF 저장
+        </button>
+    </div>
+
+    <!-- 메인 컨텐츠 영역 -->
+    <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden print-container mb-10">
+
+        <!-- 헤더 -->
+        <header class="bg-brand text-white px-5 py-9 md:p-12 text-center relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;"></div>
+            <div class="relative z-10">
+                <p class="text-sm md:text-base font-semibold tracking-widest opacity-90 mb-2 uppercase">DAC 신문로지점</p>
+                <h1 class="text-[1.75rem] leading-tight md:text-5xl font-bold mb-3 md:mb-4 tracking-tight">각당 신관 월정기주차 안내</h1>
+                <p class="text-base md:text-xl font-light opacity-90"><i class="fa-solid fa-location-dot mr-1"></i> 서울특별시 종로구 경희궁1길 33</p>
+            </div>
+        </header>
+
+        <!-- 인사말 -->
+        <div class="p-5 md:px-12 md:py-8 border-b border-gray-100 bg-gray-50/50">
+            <p class="text-base md:text-lg leading-relaxed text-gray-700">
+                <strong>각당 신관 유료 주차장</strong>을 이용해 주셔서 대단히 감사합니다.
+            </p>
+            <ul class="list-disc pl-6 mt-2 space-y-1 text-base md:text-lg leading-relaxed text-gray-700">
+                <li>본 안내문은 <strong>월정기주차</strong>에만 해당합니다.</li>
+                <li>월정기 주차이용은 <strong>기계식 주차설비</strong>에만 한정하오니 아래 차량 제원과 이용 안내를 반드시 확인해 주시기 바랍니다.</li>
+            </ul>
+        </div>
+
+        <!-- 본문 섹션 -->
+        <div class="p-5 md:p-12 space-y-10 md:space-y-12">
+
+            <!-- 1. 주차 가능 차량 -->
+            <section class="page-break">
+                <h2 class="text-xl font-bold text-brand mb-4 flex items-center border-b-2 border-brand/20 pb-2">
+                    <i class="fa-solid fa-car-side section-icon"></i> 1. 주차 가능 차량
+                </h2>
+                <p class="mb-4 text-gray-700"><strong>G80 이하 내연기관 승용차, RV</strong></p>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="border border-brand/20 rounded-lg p-4 md:p-5 bg-white">
+                        <h3 class="font-bold text-brand mb-3"><i class="fa-solid fa-ruler-combined mr-2"></i>차량 제원 기준 (이하)</h3>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div class="bg-brand-bg rounded p-3"><p class="text-xs text-gray-500">전장</p><p class="font-bold text-gray-900">5,160mm</p></div>
+                            <div class="bg-brand-bg rounded p-3"><p class="text-xs text-gray-500">전폭</p><p class="font-bold text-gray-900">2,150mm</p></div>
+                            <div class="bg-brand-bg rounded p-3"><p class="text-xs text-gray-500">전고</p><p class="font-bold text-gray-900">1,900mm</p></div>
+                            <div class="bg-brand-bg rounded p-3"><p class="text-xs text-gray-500">중량</p><p class="font-bold text-gray-900">2,200kg</p></div>
+                        </div>
+                    </div>
+                    <div class="border border-red-100 rounded-lg p-4 md:p-5 bg-red-50">
+                        <h3 class="font-bold text-red-700 mb-3"><i class="fa-solid fa-ban mr-2"></i>주차 불가 차량</h3>
+                        <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                            <li>BMW 7 시리즈, 벤츠 S클래스, G90 등 대형 세단 (리무진 포함)</li>
+                            <li>전기차</li>
+                            <li>BMW X5, 벤츠 GLE 등 대형 SUV</li>
+                            <li>승합, 화물, 개조 차량</li>
+                            <li>캐리어, 스포일러, 후사경 부착 차량</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-4 p-3 bg-gray-50 text-gray-700 text-sm rounded-lg flex items-start gap-2 border border-gray-100">
+                    <i class="fa-solid fa-circle-info mt-0.5"></i>
+                    <p>주차 가능 여부를 확인하기 어려우면 <strong>관리사무소 <a href="tel:010-8859-1298" class="underline whitespace-nowrap">010-8859-1298</a></strong>로 문의해 주시기 바랍니다.</p>
+                </div>
+            </section>
+
+            <!-- 2. 월정기주차 -->
+            <section class="page-break">
+                <h2 class="text-xl font-bold text-brand mb-4 flex items-center border-b-2 border-brand/20 pb-2">
+                    <i class="fa-regular fa-calendar section-icon"></i> 2. 월정기주차
+                </h2>
+                <div class="bg-brand-bg rounded-xl p-3 md:p-6 border border-brand/10">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+                        <div class="col-span-2 md:col-span-1 bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                            <p class="text-xs text-gray-500 font-bold mb-1">주차 요금 (1대 / 월)</p>
+                            <p class="text-2xl font-bold text-gray-900">165,000원</p>
+                            <p class="text-xs text-gray-500 mt-1">부가세 포함</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                            <p class="text-xs text-gray-500 font-bold mb-1">주차 기간</p>
+                            <p class="text-base md:text-lg font-bold text-gray-900">매월 1일 ~ 말일</p>
+                            <p class="text-xs text-gray-500 mt-1">월 단위 납부</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                            <p class="text-xs text-gray-500 font-bold mb-1">운영 방식</p>
+                            <p class="text-base md:text-lg font-bold text-gray-900">24시간 무인 운영</p>
+                            <p class="text-xs text-gray-500 mt-1">등록 차량만 이용 가능</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 p-3 bg-red-50 text-red-700 text-sm rounded-lg flex items-start gap-2 border border-red-100">
+                        <i class="fa-solid fa-triangle-exclamation mt-0.5"></i>
+                        <p><strong>납부 기한:</strong> 이용료는 <strong>전월 마지막 영업일까지</strong> 납부해 주셔야 합니다. 기한까지 계속 이용 의사를 밝히지 않으면 계약은 자동 종료됩니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. 결제 방법 -->
+            <section class="page-break">
+                <h2 class="text-xl font-bold text-brand mb-4 flex items-center border-b-2 border-brand/20 pb-2">
+                    <i class="fa-solid fa-credit-card section-icon"></i> 3. 결제 방법
+                </h2>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="border border-brand/20 rounded-lg p-4 md:p-5 bg-white">
+                        <h3 class="font-bold text-brand mb-3"><i class="fa-solid fa-building-columns mr-2"></i>은행 계좌 (무통장 입금)</h3>
+                        <p class="text-sm text-gray-600 mb-1">하나은행</p>
+                        <p class="text-xl font-bold text-gray-900 tracking-tight mb-1" id="account">121-910011-45304</p>
+                        <p class="text-sm text-gray-600 mb-3">예금주: 동아알루미늄㈜신문로지점</p>
+                        <button type="button" onclick="copyAccount(this)" class="no-print text-sm border border-brand/20 rounded-lg px-4 py-2 hover:bg-brand-bg transition-colors">
+                            <i class="fa-regular fa-copy mr-1"></i> <span>계좌번호 복사</span>
+                        </button>
+                    </div>
+                    <div class="border border-brand/20 rounded-lg p-4 md:p-5 bg-white">
+                        <h3 class="font-bold text-brand mb-3"><i class="fa-solid fa-cash-register mr-2"></i>카드 결제</h3>
+                        <p class="text-sm text-gray-700 mb-2">출입구 아이파킹 정산기에서 <strong>'정기권'을 구매</strong>해 주세요. <span class="text-gray-500">(일시불 결제)</span></p>
+                        <p class="text-xs text-gray-500">※ 회사가 직접 카드 결제를 받지 않으므로, 정산기(아이파킹) 이용 관련 세부 사항은 각당 신관 주차장 결제 담당자에게 문의해 주시기 바랍니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. 세금계산서 등 증빙 -->
+            <section class="page-break">
+                <h2 class="text-xl font-bold text-brand mb-4 flex items-center border-b-2 border-brand/20 pb-2">
+                    <i class="fa-solid fa-file-invoice section-icon"></i> 4. 세금계산서 등 증빙
+                </h2>
+                <ul class="space-y-3 text-gray-700 ml-2">
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-check text-brand mt-1 text-sm"></i>
+                        <div>
+                            <strong>세금계산서·현금영수증·카드결제 문의</strong><br>
+                            동아알루미늄㈜ 신문로지점 <a href="tel:070-7166-5680" class="font-semibold underline whitespace-nowrap">070-7166-5680</a><br>
+                            <span class="text-sm text-gray-500">(영업시간: 평일 오전 10시 ~ 오후 5시)</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-check text-brand mt-1 text-sm"></i>
+                        <div>
+                            <strong>발행 기준:</strong> 사업자는 전자세금계산서, 개인은 현금영수증이 발행됩니다.<br>
+                            <span class="text-sm text-gray-500">입금 확인 후 1주일 이내 발행되며, 사업자는 신청 시 사업자등록증 사본과 세금계산서 수신 이메일을 제출해 주셔야 합니다.</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 5. 이용 약관 -->
+            <section class="page-break page-break-before">
+                <h2 class="text-xl font-bold text-brand mb-4 flex items-center border-b-2 border-brand/20 pb-2">
+                    <i class="fa-solid fa-scale-balanced section-icon"></i> 5. 이용 약관
+                </h2>
+                <details id="terms" class="border border-brand/20 rounded-lg bg-white">
+                    <summary class="p-4 md:p-5 flex items-center justify-between">
+                        <span class="font-bold text-brand">DAC 신문로지점 월정기주차 이용약관 (전체 보기)</span>
+                        <i class="fa-solid fa-chevron-down chevron text-gray-400 transition-transform no-print"></i>
+                    </summary>
+                    <div class="terms px-5 pb-6 border-t border-gray-100">
+
+                        <h4>제1조 (목적)</h4>
+                        <p>이 약관은 동아알루미늄(주) 신문로지점(사업자등록번호 101-85-46553, 이하 "회사")이 운영하는 주차장(서울특별시 종로구 경희궁1길 33)의 월정기주차 이용에 관하여 회사와 이용자 간의 권리, 의무 및 책임사항을 정함을 목적으로 합니다.</p>
+
+                        <h4>제2조 (정의)</h4>
+                        <p>① "월정기주차"란 이용자가 매월 일정한 이용료를 납부하고 지정된 차량으로 주차장을 이용하는 것을 말합니다.</p>
+                        <p>② "이용자"란 이 약관에 동의하고 회사와 월정기주차 이용계약을 체결한 개인 또는 사업자를 말합니다.</p>
+                        <p>③ 이 주차장은 월정기주차로만 운영하며, 일 단위·시간 단위 등 비정기 주차는 제공하지 않습니다.</p>
+                        <p>④ 월정기 주차기간은 익월 1일부터 익월 말일까지입니다.</p>
+
+                        <h4>제3조 (이용계약의 체결)</h4>
+                        <p>① 이용계약은 이용자가 회사가 정한 신청서를 제출하고 회사가 승낙함으로써 성립합니다.</p>
+                        <p>② 이용자는 신청 시 차량번호, 연락처를 제출해야 하며, 사업자는 사업자등록증 사본과 세금계산서 수신 이메일을 함께 제출해야 합니다.</p>
+                        <p>③ 회사는 주차 가능 대수가 부족한 경우 등 부득이한 사유가 있으면 계약을 승낙하지 않을 수 있습니다.</p>
+
+                        <h4>제4조 (이용료 및 납부)</h4>
+                        <p>① 월 이용료는 차량 1대당 165,000원(부가가치세 포함)으로 합니다.</p>
+                        <p>② 이용자는 이용료를 전월 마지막 영업일까지 회사가 지정한 계좌로 납부해야 합니다.</p>
+                        <p>③ 이용료는 계좌이체를 원칙으로 합니다. 회사는 신용카드 단말기 사업자가 아니므로 직접 카드 결제를 제공하지 않습니다. 카드 결제를 희망하는 이용자는 아이파킹 정산기를 통해 월정기권을 구매할 수 있으며, 월 주차 선결제 등 세부 사항은 각당 신관 주차장 결제 담당자에게 문의해야 합니다.</p>
+                        <p>④ 이용료를 1회 이상 연체한 경우 회사는 이용을 제한하거나 계약을 해지할 수 있습니다.</p>
+
+                        <h4>제5조 (증빙 발행)</h4>
+                        <p>① 사업자 이용자에게는 회사(공급자: 동아알루미늄(주) 신문로지점, 사업자등록번호 101-85-46553)가 전자세금계산서를 발행합니다.</p>
+                        <p>② 개인 이용자에게는 회사가 현금영수증을 발행합니다. 이용자는 현금영수증 발급에 필요한 정보를 회사에 제공해야 합니다.</p>
+                        <p>③ 회사는 입금이 확인된 후 1주일 이내에 증빙을 발행합니다.</p>
+
+                        <h4>제6조 (이용 기간 및 갱신)</h4>
+                        <p>① 이용 기간은 계약 체결일 기준 익월 1일에서 익월 마지막 일자로 하며, 매월 단위로 이용료를 납부합니다.</p>
+                        <p>② 최소 이용기간은 20일로 합니다.</p>
+                        <p>③ 이용 기간 만료 전 마지막 영업일까지 어느 한쪽이 계속 이용 의사를 표시하지 않으면 계약은 자동 종료됩니다.</p>
+
+                        <h4>제7조 (주차장 이용)</h4>
+                        <p>① 이용자는 계약 시 등록한 차량만 주차할 수 있으며, 차량을 변경하려면 사전에 회사에 신청해야 합니다.</p>
+                        <p>② 이용 가능 시간은 24시간입니다.</p>
+                        <p>③ 이용자는 지정된 구역에 주차해야 하며, 다른 차량의 통행과 건물 출입에 방해되지 않도록 해야 합니다.</p>
+                        <p>④ 주차장 내에서 인화성·폭발성 물질 보관, 차량 정비·세차, 장기 방치, 영업 행위는 금지됩니다.</p>
+
+                        <h4>제8조 (기계식 주차장 이용)</h4>
+                        <p>① 이 주차장은 기계식 주차설비를 포함합니다. 이용자는 회사가 정한 차량 제원 기준(전장 5,160mm, 전폭 2,150mm, 전고 1,900mm, 중량 2,200kg 이하) 이내의 차량만 등록하고 주차할 수 있습니다.</p>
+                        <p>② 이용자는 차량 입출고 시 다음 사항을 지켜야 합니다.</p>
+                        <ol class="sub">
+                            <li>1. 사이드미러를 접고 안테나를 접거나 제거할 것</li>
+                            <li>2. 탑승자와 동물이 모두 하차한 후 입고하고, 차량 내에 사람과 동물이 남아 있지 않도록 할 것</li>
+                            <li>3. 회사가 정한 위치와 방법에 맞게 정차하고 파킹 브레이크를 반드시 체결할 것</li>
+                            <li>4. 안내표지와 회사 직원의 지시를 따를 것</li>
+                        </ol>
+                        <p>③ 튜닝, 루프박스, 적재물 등으로 차량이 제원 기준을 초과하는 경우 입고할 수 없습니다. 전기차는 입고할 수 없습니다.</p>
+                        <p>④ 회사는 설비 점검이나 고장 시 이용을 일시 제한할 수 있으며, 이 경우 가능한 한 사전에 또는 즉시 이용자에게 알립니다.</p>
+                        <p>⑤ 입출고 중 차량 파손 등 사고가 발생한 경우 이용자는 즉시 회사에 알려야 하며, 회사와 함께 현장과 차량 상태를 확인해야 합니다.</p>
+
+                        <h4>제9조 (회사의 책임)</h4>
+                        <p>① 회사는 주차장을 안전하게 관리하기 위해 노력합니다.</p>
+                        <p>② 회사의 고의 또는 과실이나 주차설비의 설치·관리상 하자로 인한 차량 손해에 대해서는 관련 법령에 따라 책임을 부담합니다.</p>
+                        <p>③ 회사는 주차장 배상책임보험에 가입하며, 사고 발생 시 보험 처리 범위 내에서 보상합니다.</p>
+                        <p>④ 이용자가 제8조의 제원 기준을 초과하거나 준수사항을 위반하여 발생한 손해, 천재지변 등 불가항력으로 인한 손해에 대해서는 회사가 책임을 지지 않습니다.</p>
+                        <p>⑤ 주차장 내에서 발생하는 도난, 분실사고에 대하여는 일체 책임을 지지 않습니다. (손해배상 불가)</p>
+                        <p>⑥ 본 건물의 시설물 또는 사유재산에 대하여 해를 입혔을 경우 배상 또는 원상복구를 해야 합니다.</p>
+
+                        <h4>제10조 (계약의 해지 및 이용료 환불)</h4>
+                        <p>① <strong>(이용자의 해지 신청)</strong> 이용자는 계약기간 중 언제든지 계약을 해지할 수 있습니다. 이 경우 해지하려는 날(이하 "해지일")의 1일 전까지 전화, 문자메시지 또는 서면으로 회사에 해지를 신청해야 합니다. 해지일을 따로 지정하지 않으면 해지 신청이 회사에 도달한 날을 해지일로 봅니다.</p>
+                        <p>② <strong>(중도 해지 시 환불액)</strong> 이용자가 중도에 해지하면 회사는 이미 납부한 이용료에서 실제 이용일수에 해당하는 이용료와 위약금을 공제하고 남은 금액을 환불합니다.</p>
+                        <ol class="sub">
+                            <li>1. 실제 이용일수: 이용 개시일부터 해지일까지(해지일 당일 포함)의 일수</li>
+                            <li>2. 1일 이용료: 월 이용료 ÷ 30일 (1개월은 실제 일수와 관계없이 30일로 고정합니다)</li>
+                            <li>3. 위약금: (기납부금액 − 실제 이용일수 해당 금액)의 10%</li>
+                            <li>4. <strong>환불액 = 기납부금액 − (1일 이용료 × 실제 이용일수) − 위약금</strong></li>
+                        </ol>
+                        <div class="my-2 ml-4 p-3 bg-gray-50 border border-gray-100 rounded">
+                            <p class="font-medium text-gray-700">〈산정 예시〉 월 이용료 165,000원(부가가치세 포함)을 납부하고 10일 이용 후 해지한 경우</p>
+                            <p>· 이용료 공제: 165,000 ÷ 30 × 10 = 55,000원</p>
+                            <p>· 남은 금액: 110,000원 → 위약금 10% = 11,000원</p>
+                            <p>· <strong>환불액: 99,000원</strong></p>
+                        </div>
+                        <p>③ <strong>(환불 기한)</strong> 회사는 환불 사유가 확정된 날부터 10일 이내에 이용자가 지정한 계좌로 환불합니다.</p>
+                        <p>④ <strong>(증빙 수정)</strong> 환불하는 경우 회사는 환불과 동시에 이미 발행한 세금계산서 또는 현금영수증을 수정 발행하거나 취소합니다.</p>
+                        <p>⑤ <strong>(환불 제한)</strong> 다음 각 호의 경우에는 해지일이 속한 달의 이용료를 환불하지 않습니다.</p>
+                        <ol class="sub">
+                            <li>1. 이용자가 이 약관을 위반하거나 이용료를 연체하여 회사가 계약을 해지하는 경우</li>
+                            <li>2. 매월 25일 이후에 해지를 신청한 경우. 이때 이용자는 해당 월 말일까지 주차장을 계속 이용할 수 있습니다.</li>
+                        </ol>
+                        <p>⑥ <strong>(회사 사정에 따른 해지)</strong> 시설 공사, 폐쇄, 주차면 제공 불가 등 회사의 사정으로 계약이 해지되는 경우에는 위약금 없이 잔여 이용료 전액을 환불합니다.</p>
+
+                        <h4>제11조 (이용자 정보의 보호)</h4>
+                        <p>회사는 계약 이행과 증빙 발행을 위해 필요한 범위에서 이용자의 차량번호, 연락처, 사업자 정보 등을 수집하며, 관련 법령에 따라 보호하고 목적 외로 사용하지 않습니다.</p>
+
+                        <h4>제12조 (약관의 변경)</h4>
+                        <p>회사는 필요한 경우 약관을 변경할 수 있으며, 변경 시 시행일 30일 전까지 주차장 내 게시 또는 개별 통지로 알립니다.</p>
+
+                        <h4>제13조 (분쟁의 해결)</h4>
+                        <p>이 약관에 정하지 않은 사항은 관련 법령과 상관례에 따르며, 분쟁이 발생한 경우 '각당신관'의 주소지 관할 법원인 서울중앙지방법원을 관할 법원으로 합니다.</p>
+
+                        <p class="mt-6 font-medium text-gray-700">부칙: 이 약관은 2026.12.01부터 시행합니다.</p>
+                    </div>
+                </details>
+            </section>
+
+            <!-- 6. 비상 연락망 -->
+            <section class="page-break">
+                <h2 class="text-xl font-bold text-red-700 mb-4 flex items-center border-b-2 border-red-200 pb-2">
+                    <i class="fa-solid fa-phone-volume section-icon text-red-600"></i> 6. 비상 연락망
+                </h2>
+                <div class="bg-red-50 border border-red-100 rounded-xl p-4 md:p-6">
+                    <p class="text-sm text-gray-700 mb-4 font-medium">주차 장비 문의, 예기치 않은 전기 차단, 긴급 의료 상황 등이 발생할 경우 즉각적으로 아래 연락처로 연락해 주시기 바랍니다.</p>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <a href="tel:010-8859-1298" class="bg-white p-4 rounded-lg shadow-sm border border-red-100 flex items-center gap-4">
+                            <div class="bg-red-100 text-red-600 w-12 h-12 rounded-full flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-user-tie"></i></div>
+                            <div>
+                                <p class="text-xs text-gray-500 font-bold tracking-wide">관리소장</p>
+                                <p class="text-lg font-bold text-red-600 mt-0.5 tracking-tight">010-8859-1298</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- 하단 푸터 -->
+        <footer class="bg-[#000000] text-white p-8 text-center text-sm">
+            <p class="opacity-80 mb-2">
+                상기 안내 사항 및 이용약관을 숙지하지 않아 발생하는 불이익에 대해서는 책임지지 않습니다.<br>
+                안전하고 쾌적한 주차장 운영을 위해 이용자 여러분의 협조를 부탁드립니다.
+            </p>
+            <p class="font-bold text-base mt-4">감사합니다.</p>
+            <p class="mt-6 opacity-60 text-xs font-light tracking-wider">동아알루미늄㈜ 신문로지점</p>
+        </footer>
+    </div>
+
+    <script>
+        function copyAccount(btn) {
+            var text = document.getElementById('account').textContent.trim();
+            var label = btn.querySelector('span');
+            var done = function () { label.textContent = '복사되었습니다'; setTimeout(function () { label.textContent = '계좌번호 복사'; }, 1500); };
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(done, function () { prompt('계좌번호를 복사해 주세요.', text); });
+            } else {
+                prompt('계좌번호를 복사해 주세요.', text);
+            }
+        }
+        // 인쇄 시 약관 전체가 출력되도록 펼침
+        var termsWasOpen = false;
+        window.addEventListener('beforeprint', function () {
+            var t = document.getElementById('terms');
+            termsWasOpen = t.open; t.open = true;
+        });
+        window.addEventListener('afterprint', function () {
+            document.getElementById('terms').open = termsWasOpen;
+        });
+    </script>
+</body>
+</html>
